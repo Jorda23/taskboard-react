@@ -1,0 +1,9 @@
+<svg id="icoGame" xmlns="http://www.w3.org/2000/svg" width="64.676" height="63.999" viewBox="0 0 64.676 63.999">
+  <path id="Trazado_8128" data-name="Trazado 8128" d="M0,0H64.675V64H0Z" fill="rgba(0,0,0,0)"/>
+  <g id="Grupo_68701" data-name="Grupo 68701" transform="translate(0.338 0)">
+    <path id="Trazado_8129" data-name="Trazado 8129" d="M46.667,12.5V25.167a1.957,1.957,0,0,1-.147.867,1.877,1.877,0,0,1-.928.976l-14.565,6.88a13.328,13.328,0,0,1-11.387,0L5.075,27.009a1.88,1.88,0,0,1-1.069-1.843L4,12.5" transform="translate(6.667 20.833)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Trazado_8130" data-name="Trazado 8130" d="M5.153,16.743l15.024-6.219a13.507,13.507,0,0,1,10.32,0l15.024,6.219a1.845,1.845,0,0,1,.075,3.384L31.03,26.908a13.5,13.5,0,0,1-11.387,0L5.078,20.127a1.843,1.843,0,0,1,.075-3.387Z" transform="translate(6.664 15.833)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Línea_623" data-name="Línea 623" y2="16" transform="translate(32 18.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+  <circle id="Elipse_449" data-name="Elipse 449" cx="5.333" cy="5.333" r="5.333" transform="translate(27.005 8)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

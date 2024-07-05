@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomIcoButton renders with correct styles 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="IconButtonAction"
+    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium sc-beySPh ddEYpn css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+    tabindex="0"
+    type="success"
+  >
+    <svg>
+      <circle />
+    </svg>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CustomIcoButton renders with correct styles for danger type 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="IconButtonAction"
+    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium sc-beySPh bcVkHb css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+    tabindex="0"
+    type="danger"
+  >
+    <svg>
+      <circle />
+    </svg>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CustomIcoButton renders with correct styles for default type 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="IconButtonAction"
+    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium sc-beySPh zcSNN css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+    tabindex="0"
+    type="default"
+  >
+    <svg>
+      <circle />
+    </svg>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;
+
+exports[`CustomIcoButton renders with correct styles for success type 1`] = `
+<DocumentFragment>
+  <button
+    aria-label="IconButtonAction"
+    class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium sc-beySPh ddEYpn css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+    tabindex="0"
+    type="success"
+  >
+    <svg>
+      <circle />
+    </svg>
+    <span
+      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</DocumentFragment>
+`;

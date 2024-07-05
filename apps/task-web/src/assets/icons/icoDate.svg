@@ -1,0 +1,8 @@
+<svg id="ico-ux-date-64" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_6341" data-name="Trazado 6341" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <rect id="Rectángulo_1742" data-name="Rectángulo 1742" width="42.667" height="42.667" rx="8" transform="translate(10.667 13.333)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <line id="Línea_151" data-name="Línea 151" y2="10.667" transform="translate(42.667 8)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_152" data-name="Línea 152" y2="10.667" transform="translate(21.333 8)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_153" data-name="Línea 153" x2="42.667" transform="translate(10.667 29.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <rect id="Rectángulo_1743" data-name="Rectángulo 1743" width="5.333" height="5.333" transform="translate(21.333 40)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

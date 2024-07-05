@@ -1,0 +1,7 @@
+<svg id="icoCards" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_6459" data-name="Trazado 6459" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <path id="Trazado_6460" data-name="Trazado 6460" d="M29,3H18.333A5.333,5.333,0,0,0,13,8.333v32a10.667,10.667,0,0,0,21.333,0v-32A5.333,5.333,0,0,0,29,3" transform="translate(21.667 5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_6461" data-name="Trazado 6461" d="M26.736,11.659,21.4,6.326a5.333,5.333,0,0,0-7.541,0L6.32,13.867a5.333,5.333,0,0,0,0,7.541l24,24" transform="translate(7.931 7.94)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_6462" data-name="Trazado 6462" d="M14.467,13H8.333A5.333,5.333,0,0,0,3,18.333V29a5.333,5.333,0,0,0,5.333,5.333h32" transform="translate(5 21.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_197" data-name="Línea 197" y2="0.027" transform="translate(45.333 45.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="icoList" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_8145" data-name="Trazado 8145" d="M0,0H64V64H0Z" fill="none"/>
+  <path id="Trazado_8146" data-name="Trazado 8146" d="M13,5H34.333" transform="translate(21.667 8.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_8147" data-name="Trazado 8147" d="M13,9H26.333" transform="translate(21.667 15)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_8148" data-name="Trazado 8148" d="M13,15H34.333" transform="translate(21.667 25)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_8149" data-name="Trazado 8149" d="M13,19H26.333" transform="translate(21.667 31.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <rect id="Rectángulo_2469" data-name="Rectángulo 2469" width="16" height="16" rx="1" transform="translate(8 10.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <rect id="Rectángulo_2470" data-name="Rectángulo 2470" width="16" height="16" rx="1" transform="translate(8 37.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

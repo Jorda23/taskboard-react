@@ -1,0 +1,8 @@
+<svg id="icoFrameUpRight" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_8153" data-name="Trazado 8153" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <line id="Línea_635" data-name="Línea 635" x2="42.667" transform="translate(10.667 18.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_636" data-name="Línea 636" x2="42.667" transform="translate(10.667 45.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_637" data-name="Línea 637" y2="42.667" transform="translate(18.667 10.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_638" data-name="Línea 638" y2="42.667" transform="translate(45.333 10.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <rect id="Rectángulo_2389" data-name="Rectángulo 2389" width="13.333" height="13.333" rx="1" transform="translate(50.667)" fill="#fa1859"/>
+</svg>

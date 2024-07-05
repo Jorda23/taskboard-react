@@ -1,0 +1,7 @@
+<svg id="ico-ux-send-64" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="send">
+    <path id="Trazado_6411" data-name="Trazado 6411" d="M0,0H64V64H0Z" fill="none"/>
+    <line id="Línea_168" data-name="Línea 168" y1="29.333" x2="29.333" transform="translate(26.667 8)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Trazado_6412" data-name="Trazado 6412" d="M51.535,3,34.2,51a1.467,1.467,0,0,1-2.667,0L22.2,32.333,3.535,23a1.467,1.467,0,0,1,0-2.667L51.535,3" transform="translate(4.465 5)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg id="icoBlockedContent" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="background" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <path id="Sustracción_3" data-name="Sustracción 3" d="M12,21.334h0l-4,0c-4.41,0-8-3.189-8-7.109V7.115C0,3.191,3.59,0,8,0H40c4.41,0,8,3.193,8,7.117v7.107c0,3.92-3.59,7.109-8,7.109H36v-4.74h4a2.534,2.534,0,0,0,2.666-2.369V7.115A2.539,2.539,0,0,0,40,4.738H8A2.539,2.539,0,0,0,5.334,7.115v7.107A2.534,2.534,0,0,0,8,16.592h4v4.742Z" transform="translate(8 5.33)" fill="currentColor"/>
+  <g id="Grupo_67860" data-name="Grupo 67860" transform="translate(19.552 16.006)">
+    <rect id="Rectángulo_2301" data-name="Rectángulo 2301" width="24.889" height="17.778" rx="2" transform="translate(0 14.219)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <circle id="Elipse_373" data-name="Elipse 373" cx="1.778" cy="1.778" r="1.778" transform="translate(10.667 21.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <path id="Trazado_7863" data-name="Trazado 7863" d="M8,17.222V10.111a7.111,7.111,0,1,1,14.222,0v7.111" transform="translate(-2.667 -3)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+  <path id="Sustracción_2" data-name="Sustracción 2" d="M40,21.234H8c-4.41,0-8-3.189-8-7.109V7.018C0,3.529,2.8.578,6.67,0V4.959A2.351,2.351,0,0,0,5.334,7.018v7.107A2.534,2.534,0,0,0,8,16.494H40a2.534,2.534,0,0,0,2.666-2.369V7.018a2.358,2.358,0,0,0-1.33-2.055V0C45.2.584,48,3.537,48,7.018v7.107C48,18.045,44.41,21.234,40,21.234Z" transform="translate(7.999 37.43)" fill="currentColor"/>
+</svg>

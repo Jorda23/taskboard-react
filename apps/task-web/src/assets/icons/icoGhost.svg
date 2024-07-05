@@ -1,0 +1,8 @@
+<svg id="icoGhost" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_7652" data-name="Trazado 7652" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <path id="Trazado_7653" data-name="Trazado 7653" d="M5.023,22.667a18.667,18.667,0,0,1,37.333,0V41.333a4.747,4.747,0,0,1-8.267,3.733,4.4,4.4,0,0,0-6.933,0,4.4,4.4,0,0,1-6.933,0,4.4,4.4,0,0,0-6.933,0,4.747,4.747,0,0,1-8.267-3.733V22.667" transform="translate(8.31 6.667)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_430" data-name="Línea 430" x2="0.027" transform="translate(26.667 26.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_431" data-name="Línea 431" x2="0.027" transform="translate(37.333 26.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_7654" data-name="Trazado 7654" d="M10,14a9.333,9.333,0,0,0,10.667,0" transform="translate(16.667 23.333)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>
+

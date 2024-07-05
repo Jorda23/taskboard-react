@@ -1,0 +1,7 @@
+<svg id="icoMaximize" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Trazado_7513" data-name="Trazado 7513" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)"/>
+  <path id="Trazado_7514" data-name="Trazado 7514" d="M4,8V6A2,2,0,0,1,6,4H8" transform="translate(0 0)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Trazado_7515" data-name="Trazado 7515" d="M4,16v2a2,2,0,0,0,2,2H8" transform="translate(0 0)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Trazado_7516" data-name="Trazado 7516" d="M16,4h2a2,2,0,0,1,2,2V8" transform="translate(0 0)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Trazado_7517" data-name="Trazado 7517" d="M16,20h2a2,2,0,0,0,2-2V16" transform="translate(0 0)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+</svg>

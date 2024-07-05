@@ -1,0 +1,6 @@
+<svg id="icoAtom" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_8018" data-name="Trazado 8018" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <line id="Línea_543" data-name="Línea 543" y2="0.027" transform="translate(32 32)" fill="none" stroke="#2395f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_8019" data-name="Trazado 8019" d="M10.667,0C4.776,0,0,11.939,0,26.667S4.776,53.333,10.667,53.333,21.333,41.394,21.333,26.667,16.558,0,10.667,0" transform="translate(43.314 5.601) rotate(45)" fill="rgba(0,0,0,0)" stroke="#2395f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <path id="Trazado_8020" data-name="Trazado 8020" d="M10.667,0C4.776,0,0,11.939,0,26.667S4.776,53.333,10.667,53.333,21.333,41.394,21.333,26.667,16.558,0,10.667,0" transform="translate(5.601 20.686) rotate(-45)" fill="rgba(0,0,0,0)" stroke="#2395f0" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

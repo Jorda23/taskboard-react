@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="icoMoveTop" transform="translate(64 64) rotate(180)">
+    <path id="Trazado_7582" data-name="Trazado 7582" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+    <line id="Línea_394" data-name="Línea 394" x2="42.667" transform="translate(10.667 53.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Línea_395" data-name="Línea 395" y1="26.667" transform="translate(32 10.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Línea_396" data-name="Línea 396" y1="10.667" x2="10.667" transform="translate(32 26.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    <line id="Línea_397" data-name="Línea 397" x1="10.667" y1="10.667" transform="translate(21.333 26.667)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  </g>
+</svg>

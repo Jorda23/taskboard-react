@@ -1,0 +1,9 @@
+<svg id="icoBullets" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_2270" data-name="Trazado 2270" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <line id="Línea_37" data-name="Línea 37" y2="0.027" transform="translate(13.333 48)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_34" data-name="Línea 34" x2="29.333" transform="translate(24 48)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_36" data-name="Línea 36" y2="0.027" transform="translate(13.333 32)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_33" data-name="Línea 33" x2="29.333" transform="translate(24 32)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_35" data-name="Línea 35" y2="0.027" transform="translate(13.333 16)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_32" data-name="Línea 32" x2="29.333" transform="translate(24 16)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

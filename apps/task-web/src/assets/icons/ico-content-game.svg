@@ -1,0 +1,9 @@
+<svg id="ico-content-mgr-game-24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <path id="Trazado_6245" d="M0,0H24V24H0Z" fill="rgba(0,0,0,0)"/>
+  <rect id="Rectángulo_1868" width="16" height="16" rx="2" transform="translate(4 4)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <circle id="Elipse_156" cx="0.5" cy="0.5" r="0.5" transform="translate(8 8)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  <circle id="Elipse_157" cx="0.5" cy="0.5" r="0.5" transform="translate(15 8)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  <circle id="Elipse_158" cx="0.5" cy="0.5" r="0.5" transform="translate(15 15)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  <circle id="Elipse_159" cx="0.5" cy="0.5" r="0.5" transform="translate(8 15)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  <circle id="Elipse_165" cx="0.5" cy="0.5" r="0.5" transform="translate(11.5 11.5)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+</svg>

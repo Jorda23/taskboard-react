@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <g id="icoPlusNew" transform="translate(0.002)">
+    <rect id="Rectángulo_2466" data-name="Rectángulo 2466" width="64" height="64" rx="6" transform="translate(-0.002)" fill="#fa1859" opacity="0"/>
+    <line id="Línea_403" data-name="Línea 403" y2="18.667" transform="translate(32.178 13.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"/>
+    <line id="Línea_404" data-name="Línea 404" x2="18.667" transform="translate(13.511 32)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.5"/>
+    <line id="Línea_628" data-name="Línea 628" y2="18.667" transform="translate(32.178 32)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.66"/>
+    <line id="Línea_629" data-name="Línea 629" x2="18.667" transform="translate(32.178 32)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="8" opacity="0.88"/>
+  </g>
+</svg>

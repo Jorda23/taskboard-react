@@ -1,0 +1,8 @@
+<svg id="ico-ux-chevron-right-24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="ico-card-mgr-section-open" transform="translate(0 24) rotate(-90)">
+    <g id="chevron-down" transform="translate(24 24) rotate(180)">
+      <path id="Trazado_6465" d="M0,24H24V0H0Z" transform="translate(0)" fill="rgba(0,0,0,0)"/>
+      <path id="Trazado_6466" d="M0,6,6,0l6,6" transform="translate(6 9)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

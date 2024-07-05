@@ -1,0 +1,5 @@
+<svg id="icoEdit" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <path id="Trazado_7696" data-name="Trazado 7696" d="M0,0H64V64H0Z" fill="rgba(0,0,0,0)"/>
+  <path id="Trazado_7697" data-name="Trazado 7697" d="M4,45.547H14.667l28-28A7.542,7.542,0,0,0,32,6.881l-28,28V45.547" transform="translate(6.667 7.786)" fill="rgba(0,0,0,0)" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+  <line id="Línea_440" data-name="Línea 440" x2="10.667" y2="10.667" transform="translate(36 17.333)" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+</svg>

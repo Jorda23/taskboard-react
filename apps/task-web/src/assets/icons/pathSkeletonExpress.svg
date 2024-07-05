@@ -1,0 +1,40 @@
+<svg id="pathSkeletonExpress" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="90" height="150" viewBox="0 0 90 150">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="background" width="90" height="150" rx="8" fill="#fbfbfb"/>
+    </clipPath>
+  </defs>
+  <rect id="background-2" data-name="background" width="90" height="150" rx="8" fill="#f5f5f5"/>
+  <path id="side" d="M8,0h4a0,0,0,0,1,0,0V150a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V8A8,8,0,0,1,8,0Z" fill="#d9d9d9"/>
+  <g id="elements" clip-path="url(#clip-path)">
+    <g id="Grupo_67608" data-name="Grupo 67608" transform="translate(16 -253)">
+      <g id="_-----skeleton-art-view" data-name="-----skeleton-art-view" transform="translate(0 363)">
+        <rect id="background-3" data-name="background" width="70" height="47" rx="4" fill="#1abf7c"/>
+        <g id="_-----skeleton-icon" data-name="-----skeleton-icon" transform="translate(29 10)">
+          <rect id="_---skeleton-icon" data-name="//---skeleton-icon" width="12" height="16" rx="3" fill="#fff"/>
+        </g>
+        <g id="_-----skeleton-text-regular" data-name="-----skeleton-text-regular" transform="translate(14 36)">
+          <rect id="_---skeleton-text-regular" data-name="//---skeleton-text-regular" width="42" height="5" rx="2.5" fill="#fff"/>
+        </g>
+      </g>
+      <g id="_-----skeleton-art-view-2" data-name="-----skeleton-art-view" transform="translate(0 311)">
+        <rect id="background-4" data-name="background" width="70" height="47" rx="4" fill="#8bd220"/>
+        <g id="_-----skeleton-icon-2" data-name="-----skeleton-icon" transform="translate(29 10)">
+          <rect id="_---skeleton-icon-2" data-name="//---skeleton-icon" width="12" height="16" rx="3" fill="#fff"/>
+        </g>
+        <g id="_-----skeleton-text-regular-2" data-name="-----skeleton-text-regular" transform="translate(14 36)">
+          <rect id="_---skeleton-text-regular-2" data-name="//---skeleton-text-regular" width="42" height="5" rx="2.5" fill="#fff"/>
+        </g>
+      </g>
+      <g id="_-----skeleton-art-view-3" data-name="-----skeleton-art-view" transform="translate(0 259)">
+        <rect id="background-5" data-name="background" width="70" height="47" rx="4" fill="#cfdb39"/>
+        <g id="_-----skeleton-icon-3" data-name="-----skeleton-icon" transform="translate(29 10)">
+          <rect id="_---skeleton-icon-3" data-name="//---skeleton-icon" width="12" height="16" rx="3" fill="#fff"/>
+        </g>
+        <g id="_-----skeleton-text-regular-3" data-name="-----skeleton-text-regular" transform="translate(14 36)">
+          <rect id="_---skeleton-text-regular-3" data-name="//---skeleton-text-regular" width="42" height="5" rx="2.5" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
