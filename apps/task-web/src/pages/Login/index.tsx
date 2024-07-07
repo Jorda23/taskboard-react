@@ -14,6 +14,7 @@ import WHITELOGO from '../../assets/image/logoOnly.png';
 import { useAuthService } from '../../hook/useAuthService';
 import { Alert } from '@mui/material';
 import { useState } from 'react';
+import { useAuthTokenManager } from '../../store/useAuthTokenManager';
 
 const lightTheme = createTheme({
   palette: {
@@ -31,6 +32,7 @@ const validationSchema = Yup.object({
 
 export default function Login() {
   const navigate = useNavigate();
+  const { decodeToken } = useAuthTokenManager();
   const { mutate, isPending, isError } = useAuthService();
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -44,6 +46,7 @@ export default function Login() {
       mutate({ Password: values.password, UserName: values.userName }, {
         onSuccess: (data) => {
           localStorage.setItem('auth-token', data?.Token || '');
+          decodeToken(data?.Token);
           navigate('/home');
         },
         onError: (error) => {

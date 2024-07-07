@@ -6,14 +6,16 @@ interface Props {
   onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
   error?: string;
   label?: string;
+  name?: string;
 }
 
 export const InputText = (props: Props) => {
-  const { value, onChange, error, label } = props;
+  const { value, onChange, error, label, name } = props;
   return (
     <>
       <TextField
         label={label ? label : "Name"}
+        name={name}
         variant="outlined"
         value={value}
         onChange={onChange}

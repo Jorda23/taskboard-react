@@ -1,45 +1,50 @@
-import { Box, List, ListItem, ListItemText } from '@mui/material';
-
-import { useAppSelector } from '../../hook/store';
-import { TaskWithId } from '../../store/tasks/slice';
-import { DeleteTask } from '../DeleteTask';
+import { Box, CircularProgress } from '@mui/material';
 import CardItem from '../CardItem';
+import { taskResponse } from '../../hook/useListTask';
+import { EmptyTaskMessage } from '../EmptyTaskMessage';
 
-export const TaskList = () => {
-  const tasks = useAppSelector((state) => state.tasks);
-  
+interface Props {
+  data: taskResponse[];
+  isPending: boolean;
+  isSuccess: boolean;
+}
+
+export const TaskList = ({ data, isPending, isSuccess }:Props) => {
+
   return (
-    <Box
-      sx={{
-        width: '100%',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'flex-start',
-        flexWrap: "wrap",
-        gap: "20px",
-        marginTop: '90px',
-        height: '100%'
-      }}
-    >
-      {tasks.map((value: TaskWithId) => {
-        const labelId = `checkbox-list-label-${value}`;
+    <>
+      {isPending && (
+        <Box
+          sx={{
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            height: '100vh',
+          }}
+        >
+          <CircularProgress />
+        </Box>
+      )}
 
-        return (
-          <CardItem key={value.id} />
-          // <ListItem
-          //   key={value.id}
-          //   disablePadding
-          //   sx={{
-          //     px: 2,  
-          //     py: 1,  
-          //   }}
-          // >
-          //   <ListItemText id={labelId} primary={`${value.name}`} />
+      {!isPending && data?.length === 0 && <EmptyTaskMessage />}
 
-          //   <DeleteTask id={value.id}    />
-          // </ListItem>
-        );
-      })}
-    </Box>
+      <Box
+        sx={{
+          width: '100%',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'flex-start',
+          flexWrap: 'wrap',
+          gap: '20px',
+          marginTop: '90px',
+          height: '100%',
+        }}
+      >
+        {isSuccess && data?.map((value: taskResponse) => {
+          return <CardItem key={value.Id} {...value} />;
+        })}
+      </Box>
+    </>
   );
 };

@@ -15,7 +15,11 @@ import {
 import { usePexels } from '../../hook/usePexels';
 import { PexelsPhoto } from '../../hook/usePexels/interface/pixel.interface.js';
 
-const ImageSearchGallery: React.FC = () => {
+interface ImageSearchGalleryProps {
+  handleImageSelect: (photo: string) => void;
+}  
+
+const ImageSearchGallery = ({ handleImageSelect }:ImageSearchGalleryProps) => {
   const [searchQuery, setSearchQuery] = useState('');
   const { data, isLoading, isError } = usePexels(searchQuery);
   const [selectedImage, setSelectedImage] = useState<PexelsPhoto | null>(null);
@@ -27,18 +31,19 @@ const ImageSearchGallery: React.FC = () => {
     setSearchQuery(query);
   };
 
-  const handleImageSelect = (photo: PexelsPhoto) => {
+  const handleObtain = (photo: PexelsPhoto) => {
+    handleImageSelect(photo.Src.Medium);
     setSelectedImage(photo);
   };
 
   console.log("data",data);
 
   return (
-    <Box sx={{ padding: 2 }}>
+    <Box >
       <form onSubmit={handleSearch}>
         <TextField
           name="query"
-          label="Search for images..."
+          label="Search for images"
           variant="outlined"
           fullWidth
           margin="normal"
@@ -51,7 +56,6 @@ const ImageSearchGallery: React.FC = () => {
       {isLoading && (
         <CircularProgress sx={{ display: 'block', margin: '20px auto' }} />
       )}
-      {isError && <Typography color="error">Error loading images</Typography>}
       {data && (
         <Box
           sx={{
@@ -71,7 +75,7 @@ const ImageSearchGallery: React.FC = () => {
             {data?.Photos?.map((photo: PexelsPhoto) => (
               <Grid item xs={12} sm={6} md={4} lg={3} key={photo.Id}>
                 <Card>
-                  <CardActionArea onClick={() => handleImageSelect(photo)}>
+                  <CardActionArea onClick={() => handleObtain(photo)}>
                     <CardMedia
                       component="img"
                       height="80"

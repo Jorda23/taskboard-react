@@ -4,7 +4,6 @@ import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import { DataTable } from '../../components/DataTable';
 import { UserProfile, useUserList } from '../../hook/useUserList';
-import { useCreateUser } from '../../hook/useCreateUser';
 import AddUserModal from '../../components/AddUserModal';
 import { useState } from 'react';
 

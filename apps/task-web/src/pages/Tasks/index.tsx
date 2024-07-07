@@ -1,23 +1,21 @@
-import { Box, Stack } from '@mui/material';
-
 import Layout from '../../components/Layout';
 import Navbar from '../../components/Navbar';
 import { CreateNewTask } from '../../components/CreateNewTask';
-import { useAppSelector } from '../../hook/store';
-import { EmptyTaskMessage } from '../../components/EmptyTaskMessage';
 import { TaskList } from '../../components/TaskList';
-import CardItem from '../../components/CardItem';
+import { useListTask } from '../../hook/useListTask';
+import { useAuthTokenManager } from '../../store/useAuthTokenManager';
 
 const Tasks = () => {
-  const tasks = useAppSelector((state) => state.tasks);
+  const { decodedToken } = useAuthTokenManager();
+  const { data, isPending, isSuccess, refetch } = useListTask({ idUser:  Number(decodedToken?.userId) });
 
   return (
     <Layout>
       <Navbar title={'Tasks'} />
 
-      {tasks.length === 0 ? <EmptyTaskMessage /> : <TaskList />}
+      <TaskList data={data ?? []} isPending={isPending} isSuccess={isSuccess} />
 
-      <CreateNewTask />
+      <CreateNewTask refetch={refetch} />
     </Layout>
   );
 };

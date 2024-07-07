@@ -22,24 +22,40 @@ const validationSchema = Yup.object().shape({
   profileImage: Yup.mixed().required('Profile image is required'),
 });
 
-const AddUserModal = ({ open, onClose, refetch }) => {
+interface Props {
+  open: boolean;
+  onClose: () => void;
+  refetch: () => void;
+}
+
+interface FormValues {
+  userName: string;
+  password: string;
+  email: string;
+  profileImage: File | null;
+}
+
+const AddUserModal = ({ open, onClose, refetch }: Props) => {
   const { mutate, isPending } = useCreateUser();
-  const [imagePreviewUrl, setImagePreviewUrl] = useState('');
+  const [imagePreviewUrl, setImagePreviewUrl] = useState<string>('');
 
-  const handleImageUpload = (event, setFieldValue) => {
-    const file = event.target.files[0];
+  const handleImageUpload = (event: React.ChangeEvent<HTMLInputElement>, setFieldValue: (field: string, value: any) => void) => {
+    const file = event.target.files?.[0];
 
-    // Preview image
-    const reader = new FileReader();
-    reader.onloadend = () => {
-      setImagePreviewUrl(reader.result);
-    };
-    reader.readAsDataURL(file);
+    if (file) {
+      const reader = new FileReader();
+      reader.onloadend = () => {
+        if (reader.result) {
+          setImagePreviewUrl(reader.result as string);
+        }
+      };
+      reader.readAsDataURL(file);
 
-    setFieldValue('profileImage', file); // Set Formik field value for profileImage
+      setFieldValue('profileImage', file); // Set Formik field value for profileImage
+    }
   };
 
-  const handleSubmit = async (values) => {
+  const handleSubmit = async (values: FormValues) => {
     try {
       await mutate({
         UserName: values.userName,
@@ -51,7 +67,7 @@ const AddUserModal = ({ open, onClose, refetch }) => {
       onClose();
     } catch (error) {
       console.error('Error creating user:', error);
-      alert('Error creating user');
+      alert('There was an error creating the user. Please try again later.');
     }
   };
 
@@ -76,7 +92,7 @@ const AddUserModal = ({ open, onClose, refetch }) => {
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
-          {({ setFieldValue, values }) => (
+          {({ setFieldValue }) => (
             <Form>
               <Stack spacing={2}>
                 <Field
@@ -86,7 +102,9 @@ const AddUserModal = ({ open, onClose, refetch }) => {
                   fullWidth
                   variant="outlined"
                 />
-                <ErrorMessage name="userName" component="div" />
+                <ErrorMessage name="userName">
+                  {(msg) => <Typography color="error">{msg}</Typography>}
+                </ErrorMessage>
 
                 <Field
                   name="password"
@@ -96,7 +114,9 @@ const AddUserModal = ({ open, onClose, refetch }) => {
                   type="password"
                   variant="outlined"
                 />
-                <ErrorMessage name="password" component="div" />
+                <ErrorMessage name="password">
+                  {(msg) => <Typography color="error">{msg}</Typography>}
+                </ErrorMessage>
 
                 <Field
                   name="email"
@@ -105,7 +125,9 @@ const AddUserModal = ({ open, onClose, refetch }) => {
                   fullWidth
                   variant="outlined"
                 />
-                <ErrorMessage name="email" component="div" />
+                <ErrorMessage name="email">
+                  {(msg) => <Typography color="error">{msg}</Typography>}
+                </ErrorMessage>
 
                 <Button variant="contained" component="label">
                   Upload Profile Image
@@ -116,6 +138,9 @@ const AddUserModal = ({ open, onClose, refetch }) => {
                     onChange={(event) => handleImageUpload(event, setFieldValue)}
                   />
                 </Button>
+                <ErrorMessage name="profileImage">
+                  {(msg) => <Typography color="error">{msg}</Typography>}
+                </ErrorMessage>
 
                 {imagePreviewUrl && (
                   <Avatar
